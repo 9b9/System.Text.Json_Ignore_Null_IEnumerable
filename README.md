@@ -4,6 +4,7 @@
 To replicate, clone the repo and run `dotnet run`. The API service has three endpoints:
 
 1. /objectResult - return an [ObjectResult](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.objectresult?view=aspnetcore-3.1). 
+   
    GET /objectResult
    ```json
    {
@@ -12,7 +13,8 @@ To replicate, clone the repo and run `dotnet run`. The API service has three end
    }
    ```
 
-2. /jsonResult - return an [JsonResult](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.jsonresult?view=aspnetcore-3.1) 
+2. /jsonResult - return an [JsonResult](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.jsonresult?view=aspnetcore-3.1).
+   
    GET /jsonResult
    ```json
    {
@@ -20,7 +22,8 @@ To replicate, clone the repo and run `dotnet run`. The API service has three end
    }
    ```
 
-3. /contentResult - return an [ContentResult](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.contentresult?view=aspnetcore-3.1) 
+3. /contentResult - return an [ContentResult](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.contentresult?view=aspnetcore-3.1). 
+   
    GET /contentResult
    ```json
    {
